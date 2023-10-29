@@ -1,6 +1,6 @@
 {
   "private": true,
-  "author":"heiyexing <496845051@qq.com>",
+  "author": "heiyexing <496845051@qq.com>",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
@@ -9,9 +9,14 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "ahooks": "^3.7.8",
+    "antd": "^5.10.2",
+    "lodash-es": "^4.17.21",
     "umi": "^4.0.11"
   },
   "devDependencies": {
+    "@types/lodash-es": "^4.17.10",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "typescript": "^4.1.2"

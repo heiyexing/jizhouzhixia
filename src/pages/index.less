@@ -1,0 +1,81 @@
+html,
+body {
+  margin: 0;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+  overflow-x: hidden;
+}
+
+.ant-card {
+  width: 460px;
+  height: 500px;
+  background-image: url("../assets/user-bg.jpg");
+  background-size: 100% 100%;
+}
+
+.avatar {
+  width: 160px;
+  border-radius: 4px;
+  border: 10px solid #e6e6e6;
+  margin-right: 12px;
+}
+
+.title {
+  text-wrap: nowrap;
+}
+
+.attributes {
+  .ant-descriptions-item {
+    text-wrap: nowrap;
+    .ant-btn {
+      opacity: 0;
+    }
+    &:hover {
+      .ant-btn {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.attributes,
+.skills {
+  .ant-descriptions-item {
+    padding-bottom: 4px !important;
+  }
+}
+
+.ant-descriptions-item-label {
+  font-weight: bold !important;
+  color: #505050 !important;
+}
+
+h3,
+h4 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.wound-list {
+  display: flex;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 12px;
+  div {
+    text-align: center;
+    height: 100%;
+    opacity: 0.5;
+    width: 25%;
+    cursor: pointer;
+  }
+  .anticon {
+    position: relative;
+    bottom: 6px;
+  }
+}

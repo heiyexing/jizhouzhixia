@@ -1,3 +1,5 @@
 export default {
-  npmClient: 'cnpm'
+  title: "极昼之下跑团角色卡",
+  npmClient: "cnpm",
+  mfsu: false,
 };
