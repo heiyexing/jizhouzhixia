@@ -40,7 +40,7 @@ export type UserAttribute =
 
 export type UserStatus = "gamble" | "healed";
 
-export const WoundColors = ["#4096ff", "#95de64", "#fa8c16", "#ff7875"];
+export const WoundColors = ["#4096ff", "#95de64", "#fa8c16", "#ff7875", "#444"];
 
 export const UserAttributeMap: Record<UserAttribute, string> = {
   mind: "意志",
@@ -118,7 +118,7 @@ export const InitalUsers: User[] = [
     skill1Info: {
       name: "心理学",
       description:
-        "行为痕迹的分析，兼容犯罪心理学，同时可以独自查看一张目的卡，如果抽到空白可以重抽（整场游戏限1次）",
+        "行为痕迹的分析，兼容犯罪心理学",
       useCount: 0,
     },
     skill2Info: {
@@ -148,7 +148,7 @@ export const InitalUsers: User[] = [
     skill2Info: {
       name: "领航",
       description:
-        "探索未知地带的方向感，同时可以独自查看一张目的卡（整场游戏限1次），该技能的以上2个作用都可以在失败时重新考验一次",
+        "探索未知地带的方向感",
       useCount: 0,
     },
     gamble: false,
